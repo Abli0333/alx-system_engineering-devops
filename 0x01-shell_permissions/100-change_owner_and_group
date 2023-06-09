@@ -1,2 +1,2 @@
 #!/bin/bash
-chownent vincent:staff
+chownent vincent:staff *
