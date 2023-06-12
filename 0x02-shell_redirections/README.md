@@ -1,1 +1,1 @@
-its all about shell redirecting
+0x02. Shell, I/O Redirections and filters
