@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -c | awk '$1 == 1 {print $2}'
+cat <file_name> | sort | uniq -c | grep -e '^\s. *1\s' | awk '{print $NF}'
